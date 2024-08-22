@@ -1,0 +1,41 @@
+{
+    "files.autoSave": "afterDelay",
+
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+
+    "typescript.validate.enable": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
+    "git.autofetch": true,
+
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+
+    "scss.validate": false,
+    "css.validate": false,
+    "less.validate": false,
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": "explicit"
+    },
+}

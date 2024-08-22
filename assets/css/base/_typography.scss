@@ -1,0 +1,35 @@
+@import '../abstracts/variables';
+@import '../base/colors';
+
+body {
+  font-family: $font-family-primary;
+  font-size: $font-size-sm;
+  line-height: normal;
+  color: $color-black;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// Дополнительные стили
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
